@@ -1,4 +1,4 @@
-# ![Remindear](/build/logobig.png)
+# ![Remindear](/build/logoBig.png)
 Remindear is a simple desktop app that reminds your routines you might forget.
 
 ## Installation
