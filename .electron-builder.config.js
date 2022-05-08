@@ -3,9 +3,9 @@
  * @see https://www.electron.build/configuration/configuration
  */
 module.exports = {
-  appId: "YourAppID",
-  productName: "YourAppName",
-  copyright: "Copyright © 2022 ${author}",
+  appId: "remindear",
+  productName: "Remindear",
+  copyright: `Copyright © ${new Date().getFullYear()} Furkan Alp Tokaç`,
   asar: true,
   directories: {
     output: "release/${version}",
@@ -32,7 +32,7 @@ module.exports = {
     artifactName: "${productName}-${version}-Installer.${ext}",
   },
   linux: {
-    target: ["AppImage"],
+    target: ["deb"],
     artifactName: "${productName}-${version}-Installer.${ext}",
   },
 }

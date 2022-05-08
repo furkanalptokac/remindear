@@ -18,6 +18,8 @@ let win: BrowserWindow | null = null
 
 async function createWindow() {
   win = new BrowserWindow({
+    width: 600,
+    height: 600,
     title: 'Main window',
     webPreferences: {
       preload: join(__dirname, '../preload/index.cjs')

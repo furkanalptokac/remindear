@@ -86,3 +86,5 @@ release
 .DS_Store
 dist-ssr
 *.local
+
+.vscode
